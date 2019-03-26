@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML 연습용 웹페이지</title>
+  </head>
+  <body>
+    <h1>HTML 연습용 웹페이지</h1>
+
+    <p>웹페이지에서 우클릭 후 view page souce로 tag 확인가능 (paragraph으로 작성됨)</p>
+    <p>문법 : &lsaquo;p&rsaquo; 쓰고자 하는 텍스트 &lsaquo;/p&rsaquo;</p>
+
+    <table cellspacing="20">
+      <tr>
+        <td><img src="images.png" alt="HTML5 image"></td>
+        <td>
+          <p>이미지 삽입하기</p>
+          <ul>
+            <li>문법 : &lsaquo;img src="이미지 주소" alt="간단한 이미지 설명"&rsaquo;</li>
+          </ul>
+          <p>table tag를 사용하여 사진 옆에 텍스트를 삽입 할 수 있다.</p>
+          <ul>
+            <li>cellspacing Attribute를 이용하면 사진과 글에 지정된 숫자만큼 공간을 줄 수 있다.</li>
+            <li>문법 : &lsaquo;table cellspacing="20"&rsaquo; 숫자는 픽셀수를 의미함</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+    <p><em>이태릭체 사용하기</em></p>
+    <ul>
+      <li>문법 : &lsaquo;em&rsaquo; 이태릭 HTML5 &lsaquo;/em&rsaquo;</li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em">em tag description in mdn</a></li>
+    </ul>
+
+    <p><strong>텍스트 강조 사용하기</strong></p>
+    <ul>
+      <li>문법 : &lsaquo;strong&rsaquo; 강조된 HTML5 &lsaquo;/strong&rsaquo;</li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong">strong tag description in mdn</a></li>
+    </ul>
+
+    <p>링크 만들기</p>
+    <ul>
+      <li>문법 :  &lsaquo;a href="링크주소"&rsaquo;링크 텍스트&lsaquo;/a&rsaquo;</li>
+      <li>예시 : <a href="https://www.google.com/search?q=HTML5&oq=HTML5&aqs=chrome..69i57j69i60j35i39l2j69i60l2.3530j0j4&sourceid=chrome&ie=UTF-8">HTML5 구글 링크</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">anchor tag description in mdn</a></li>
+    </ul>
+
+    <ul>
+      <li>HTML5 기본 태그가 설명된 PDF 파일 공유</li>
+      <li><a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">HTML Cheatsheet pdf 보기 링크</a></li>
+      <li><a download href="htmlcheatsheet.pdf">HTML Cheatsheet 다운로드 링크</a></li>
+      <li>2018년 2월부로 자신이 소유한 파일이 아니면 다운로드 링크를 직접달수 없음</li>
+    </ul>
+
+    <a href="Multiple page.html">연습용 다른 웹페이지 링크</a>
+
+    <p>구획선 만들기</p>
+    <ul>
+      <li>문법 : &lsaquo;hr size="숫자"&rsaquo; 숫자는 픽셀수를 의미함</li>
+    </ul>
+
+    <hr size="3">
+
+    <h3>구획선 아래에 부제목 달기</h3>
+    <ul>
+      <li>순서 없는 리스트 첫째줄</li>
+      <li>두번째 줄</li>
+      <ul>
+        <li>One nested list</li>
+        <li>Two nested list</li>
+      </ul>
+    </ul>
+    <h3>H3 subtitle size</h3>
+    <ol>
+      <li>Ordered list</li>
+      <li>second section of Ordered List</li>
+      <ul>
+        <li>Un-ordered list is fully funtional in Ordered list</li>
+      </ul>
+    </ol>
+
+    <hr size="3">
+    <h3>Table 만들기</h3>
+    <table>
+      <tr>
+        <td>First Row of Table Data 1</td>
+        <td>First Row of Table Data 2</td>
+      </tr>
+      <tr>
+        <td>Second Row of tanle Data 1</td>
+        <td>Second Row of Tanle Data 2</td>
+      </tr>
+    </table>
+
+    <hr size="3">
+    <h3>Table을 header, body, footer를 구분하여 만들기</h3>
+    <ul>
+      <li>구획별로 나눠주면 가시성이 좋아져 체크 및 수정이 용이해진다.</li>
+    </ul>
+    <table>
+      <thead>
+        <th>First Row of Table header 1</th>
+        <th>First Row of Table header 2</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>First Row of Table body 1</td>
+          <td>First Row of Table body 2</td>
+        </tr>
+        <tr>
+          <td>Second Row of tanle body 1</td>
+          <td>Second Row of Tanle body 2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Table footer 1</td>
+          <td>Table foorer 2</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr>
+    <h3>Table 생성하여 평가표 만들기</h3>
+    <h3>Skills</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>Programming Skill</td>
+        <td>🌟🌟🌟🌟🌟</td>
+      </tr>
+      <tr>
+        <td>Web Development</td>
+        <td>🌟🌟🌟</td>
+      </tr>
+      <tr>
+        <td>Photography</td>
+        <td>🌟🌟🌟🌟</td>
+      </tr>
+    </table>
+
+    <hr>
+    <h3>Nested Table을 이용하여 평가표 만들기</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <table cellspacing="10">
+          <tr>
+            <td>Programming Skill</td>
+            <td>🌟🌟🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Web Development</td>
+            <td>🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Photography</td>
+            <td>🌟🌟🌟🌟</td>
+          </tr>
+          </table>
+        </td>
+        <td>
+          <table cellspacing="10">
+        <tr>
+          <td>Programming Skill</td>
+          <td>🌟🌟🌟🌟🌟</td>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>🌟🌟🌟</td>
+        </tr>
+        <tr>
+          <td>Photography</td>
+          <td>🌟🌟🌟🌟</td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+    </table>
+
+
+
+  </body>
+</html>
