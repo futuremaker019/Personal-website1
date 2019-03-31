@@ -3,12 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>HTML 연습용 웹페이지</title>
+
+    <style media="screen">
+      body{
+      background-color: #f3dcad;
+    }
+
+    hr{
+      background-color: white;
+      border-style: none;
+      border-top-style: dotted;
+      border-color: grey;
+      border-width: 5px;
+      width: 5%;
+    }
+
+    </style>
+
   </head>
   <body>
     <h1>HTML 연습용 웹페이지</h1>
 
     <p>웹페이지에서 우클릭 후 view page souce로 tag 확인가능 (paragraph으로 작성됨)</p>
-    <p>문법 : &lsaquo;p&rsaquo; 쓰고자 하는 텍스트 &lsaquo;/p&rsaquo;</p>
+    <p>문법 : &lt;p&gt; 쓰고자 하는 텍스트 &lt;/p&gt;</p>
 
     <table cellspacing="20">
       <tr>
@@ -16,12 +33,12 @@
         <td>
           <p>이미지 삽입하기</p>
           <ul>
-            <li>문법 : &lsaquo;img src="이미지 주소" alt="간단한 이미지 설명"&rsaquo;</li>
+            <li>문법 : &lt;img src="이미지 주소" alt="간단한 이미지 설명"&gt;</li>
           </ul>
           <p>table tag를 사용하여 사진 옆에 텍스트를 삽입 할 수 있다.</p>
           <ul>
             <li>cellspacing Attribute를 이용하면 사진과 글에 지정된 숫자만큼 공간을 줄 수 있다.</li>
-            <li>문법 : &lsaquo;table cellspacing="20"&rsaquo; 숫자는 픽셀수를 의미함</li>
+            <li>문법 : &lt;table cellspacing="20"&gt; 숫자는 픽셀수를 의미함</li>
           </ul>
         </td>
       </tr>
@@ -29,19 +46,19 @@
 
     <p><em>이태릭체 사용하기</em></p>
     <ul>
-      <li>문법 : &lsaquo;em&rsaquo; 이태릭 HTML5 &lsaquo;/em&rsaquo;</li>
+      <li>문법 : &lt;em&gt; 이태릭 HTML5 &lt;/em&gt;</li>
       <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em">em tag description in mdn</a></li>
     </ul>
 
     <p><strong>텍스트 강조 사용하기</strong></p>
     <ul>
-      <li>문법 : &lsaquo;strong&rsaquo; 강조된 HTML5 &lsaquo;/strong&rsaquo;</li>
+      <li>문법 : &lt;strong&gt; 강조된 HTML5 &lt;/strong&gt;</li>
       <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong">strong tag description in mdn</a></li>
     </ul>
 
     <p>링크 만들기</p>
     <ul>
-      <li>문법 :  &lsaquo;a href="링크주소"&rsaquo;링크 텍스트&lsaquo;/a&rsaquo;</li>
+      <li>문법 :  &lt;a href="링크주소"&gt;링크 텍스트&lt;/a&gt;</li>
       <li>예시 : <a href="https://www.google.com/search?q=HTML5&oq=HTML5&aqs=chrome..69i57j69i60j35i39l2j69i60l2.3530j0j4&sourceid=chrome&ie=UTF-8">HTML5 구글 링크</a></li>
       <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">anchor tag description in mdn</a></li>
     </ul>
@@ -57,7 +74,7 @@
 
     <p>구획선 만들기</p>
     <ul>
-      <li>문법 : &lsaquo;hr size="숫자"&rsaquo; 숫자는 픽셀수를 의미함</li>
+      <li>문법 : &lt;hr size="숫자"&gt; 숫자는 픽셀수를 의미함</li>
     </ul>
 
     <hr size="3">
